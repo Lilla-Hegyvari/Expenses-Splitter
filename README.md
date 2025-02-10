@@ -10,7 +10,7 @@ I started this project by taking a sample CVS file. This sample CVS file was cre
 Note that names have been anonymised in this example file. 
 
 Note that the format of the CVS file is important:
-- Expenses should be listed below each other. Row 1 contains column titles and will not be factored into the calculations. Expense shares are rounded to two decimals.
+- Expenses should be listed below each other. Row 1 contains column titles and _will not_ be factored into the calculations. Expense shares are rounded to two decimals.
 - Column 1 contains the name of the expense. This ultimately will not affect the code, so it can contain any name the user wishes to use.
 - Column 2 contains the date of the expense. Similarly to Row 1, it does not affect the code. Rows 1 and 2 are present in the CVS for the user's convenience for easier editing and review of the expense list.
 - Column 3 contains the total cost of the expense. This is the amount that will be split between the group members according to the parts specified on the following rows. If someone does not participate in the expense, their share should be set to 0.
