@@ -10,16 +10,27 @@ I started this project by taking a sample CVS file. This sample CVS file was cre
 Note that names have been anonymised in this example file. 
 
 Note that the format of the CVS file is important:
-- Expenses should be listed below each other. Row 1 contains column titles and will not be factored into the calculations.
+- Expenses should be listed below each other. Row 1 contains column titles and will not be factored into the calculations. Expense shares are rounded to two decimals.
 - Column 1 contains the name of the expense. This ultimately will not affect the code, so it can contain any name the user wishes to use.
 - Column 2 contains the date of the expense. Similarly to Row 1, it does not affect the code. Rows 1 and 2 are present in the CVS for the user's convenience for easier editing and review of the expense list.
-- Column 3 contains the total cost of the expense. This is the amount that will be split between the group members according to the parts specified on the following rows.
+- Column 3 contains the total cost of the expense. This is the amount that will be split between the group members according to the parts specified on the following rows. If someone does not participate in the expense, their share should be set to 0.
 - Columns 4 and above will contain the parts that group members contribute to a given expense.
 
-For example: Roommates Anna, Bob, Lily and Emma shared an expense of 20€. This will read as:
+_Examples:_
 
----|Anna|Bob|Lily|Emma|
-|1|1|1|1|
+1. Roommates Anna, Bob, Lily and Emma shared an expense of 20€. This will read as:
 
+    ![image](https://github.com/user-attachments/assets/f96aa77b-5a1b-439b-a761-e61efc729fe0)
 
-So the CVS file should contain 1 under everyone's name. Now, Anna's friend Abby also joins. Anna pays for her friend, so the columns should read 
+3. Now, Emma's friend Abby also joins. Emma pays for her friend' share, so the columns should read:
+
+    ![image](https://github.com/user-attachments/assets/f0ece1b4-6852-4318-a6aa-ba3201e75fac)
+
+5. If only three of the roommates join for dinner, the missing person's share should be set to 0:
+ 
+   ![image](https://github.com/user-attachments/assets/f2313a16-4cb9-4ff4-b2c1-7edae904276a)
+
+_Output:_
+1. The output for this example will be a share of 1/4 for each person who contributed to the expense, in this care 1/4 * 20€ = 5€
+2. The output generated will be 1/5 * 20€ = 4€ for Lily, Anna and Bob. But, as Emma also paid for her friend, her share will be 2/5 * 20€ = 8€
+3. Since Emma did not participate in the expense, her share is 0€. The rest of the group pays 1/3 * 20€ = 6.67€
