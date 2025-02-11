@@ -32,6 +32,6 @@ _Examples:_
    ![image](https://github.com/user-attachments/assets/f2313a16-4cb9-4ff4-b2c1-7edae904276a)
 
 _Output:_
-1. The output for this example will be a share of 1/4 for each person who contributed to the expense, in this care 1/4 * 20€ = 5€
+1. The output for this example will be a share of 1/4 for each person who contributed to the expense, in this case 1/4 * 20€ = 5€
 2. The output generated will be 1/5 * 20€ = 4€ for Lily, Anna and Bob. But, as Emma also paid for her friend, her share will be 2/5 * 20€ = 8€
 3. Since Emma did not participate in the expense, her share is 0€. The rest of the group pays 1/3 * 20€ = 6.67€
