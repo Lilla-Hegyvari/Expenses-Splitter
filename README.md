@@ -26,7 +26,8 @@ _Examples:_
 
 1. Roommates Anna, Bob, Lily and Emma shared an expense of 20€. This will read as:
 
-    ![image](https://github.com/user-attachments/assets/f96aa77b-5a1b-439b-a761-e61efc729fe0)
+   ![image](https://github.com/user-attachments/assets/ac93664d-1b25-4394-bc21-46f6844b3b07)
+
 
 The output for this example will be a share of 1/4 for each person who contributed to the expense, in this case 1/4 * 20€ = 5€ 
 
