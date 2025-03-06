@@ -65,5 +65,5 @@ Results so far: the code seems to work properly. The displayed outputs are consi
 
 **Possible improvements:**
 - optimise code. 
-- make it possible to sort the expenses based on time intervals e.g. give the expenses for the month of March. This could serve as having a project that contains multiple functions.
+- make it possible to sort the expenses based on time intervals e.g. give the expenses for the month of March. This could serve as having a project that contains multiple functions as for the moment there is only one.
 - nicer result output. For the moment I couldn't figure out how to print out the result in with only 2 decimal places and in a better looking format.
