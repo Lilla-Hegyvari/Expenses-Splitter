@@ -4,9 +4,10 @@
 
 This is the documentation document for project "Expenses Splitter" for the AESB2122-24 course at the TU Delft, done by student L. Hegyvari nr5502926. The goal of this project is to let the user input a CVS file containing a list of expenses shared by a group of people. The expenses will then be split amongst the group as specified in the CVS file. The output will be a total amount that a person either owes to someone (- value) or that they are owed by someone (+ value). For format specifications needed in the CVS file, please see comment under "Dataset". 
 
+
 **Code usage:**
 
-You can use the code by inputting a CVS file that meets the criteria defined in the "Dataset" section below. The full .ipnyb file can be found in the repository. Then, the only places the code needs to be changed is the file name in the last few lines in step 12:
+You can use the code by inputting a CVS file that meets the criteria defined in the "Dataset" section below. The full .ipynb and .py files can be found in the repository. The only places the code needs to be changed is the file name along with the start and end dates in the last few lines at step 12:
 
 file_name = "expenses_splitter_example_file.xlsx" -> change the file name between the "..." to your file.
 
@@ -14,15 +15,14 @@ start_date = None -> change "None" to "YYYY-MM-DD" if you wish to filter the dat
 
 end_date = None -> change "None" to "YYYY-MM-DD" if you wish to filter the data.
 
-final_balance = split_expenses(file_name, start_date, end_date)
+final_balance = split_expenses(file_name, start_date, end_date) -> no need to change. 
 
-print(final_balance)
+print(final_balance) -> no need to change.
+
 
 **Dataset:**
 
-I started this project by taking a sample CVS file. This sample CVS file was created from the list of expenses made by my three roommates and I in the last few months. It is available to see in the repository. Names have been anonymised in this example file. The workings of the code for the project can be checked by seeing if the results match the numbers given by the expense splitter system currently used by us. If the numbers do not match, it will be clear that errors need to be fixed in the project's code. These numbers are:
-
-![image](https://github.com/user-attachments/assets/7aff6f1b-5653-426b-aca8-a5eb98e20d5e)
+I started this project by taking a sample CVS file. This sample CVS file was created from the list of expenses made by my three roommates and I in the last few months. It is available to see in the repository. Names have been anonymised in this example file. The workings of the code for the project can be checked by seeing if the results match the numbers given by the expense splitter system currently used by us. If the numbers do not match, it will be clear that errors need to be fixed in the project's code.
 
 Note that the format of the CVS file is important:
 - Expenses should be listed below each other. Row 1 contains column titles and will not be factored into the calculations. Expense shares are rounded to two decimals.
@@ -52,7 +52,8 @@ Since Emma did not participate in the expense, her share is 0€. The rest of th
 
 Emma pays for Mark's share. She will pay 2/5 * 20€ = 8€ The rest of the three roommates pay 1/5 * 20€ = 4€
 
-**Code writing:**
+
+**Code writing steps:**
 
 The Python code for the expense splitter can be found in the repositiory under the name "....". The code was written in such a way that all the steps are explained within the file and the names of the defined functions are as self-explanatory as possible. This may make the names longer than stricty necessary, but I preferred to write a code with slightly more explanations and written out names without many abbreviations to make it user friendly.
 
@@ -72,11 +73,17 @@ The necessary steps in the code are as follows:
 
 Results so far: the code seems to work properly. The displayed outputs are consistent with the results given by the current expense calculator in use and changing start & end dates changes the outputs correctly.
 
-All:
+Currently used (widely tested, trusted system) results:
+
+![image](https://github.com/user-attachments/assets/7aff6f1b-5653-426b-aca8-a5eb98e20d5e)
+
+Python code, all expenses:
 
 ![image](https://github.com/user-attachments/assets/11f2b148-4299-4aca-aa4d-f3d8d635c8de)
 
-First few expenses only:
+Python code, first few expenses only:
 
 ![image](https://github.com/user-attachments/assets/412787ea-f93d-43f5-b389-37f3a22de85a)
+
+These numbers for the first few expenses can be simply calculated and confirmed.
 
