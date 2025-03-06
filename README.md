@@ -12,7 +12,7 @@ final_balance = split_expenses('expenses_splitter_example_file.xlsx') where inst
 **Dataset:**
 
 I started this project by taking a sample CVS file. This sample CVS file was created from the list of expenses made by my three roommates and I in the last few months. It is available to see in the repository. Names have been anonymised in this example file. The workings of the code for the project can be checked by seeing if the results match the numbers given by the expense splitter system currently used by us. If the numbers do not match, it will be clear that errors need to be fixed in the project's code. These numbers are:
-![image](https://github.com/user-attachments/assets/f8e16a83-84de-4261-a448-712b582e0493)
+![image](https://github.com/user-attachments/assets/80d763f2-fb54-45dd-bb74-69ed9d6a8964)
 
 Note that the format of the CVS file is important:
 - Expenses should be listed below each other. Row 1 contains column titles and will not be factored into the calculations. Expense shares are rounded to two decimals.
