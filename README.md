@@ -15,7 +15,7 @@ Note that the format of the CVS file is important:
 - _Column 2_ contains the date of the expense. Similarly to Row 1, it does not affect the code. Rows 1 and 2 are present in the CVS for the user's convenience for easier editing and review of the expense list.
 - _Column 3_ contains the total cost of the expense. This is the amount that will be split between the group members according to the parts specified in columns 5+.
 - _Column 4_ contains the name of the person who paid the expense.
-- _Columns 5 and above_ will contain the parts that group members contribute to a given expense. This value can be set either to 1 or 0. I means the person contributed to the expense, 0 means they did not. The code will be written for a group of 4 following the example file, but the number will be easy to adjust according to the needs of the user.
+- _Columns 5 and above_ will contain the parts that group members contribute to a given expense. This value can be set either to 1 or 0. I means the person contributed to the expense, 0 means they did not.
 
 _Examples:_
 
