@@ -6,7 +6,7 @@ This is the documentation document for project "Expenses Splitter" for the AESB2
 
 **Code usage:**
 
-You can use the code by inputting a CVS file that meets the criteria defined in the "Dataset" section below. Then, the only places the code needs to be changed is the file name in the second to last line:
+You can use the code by inputting a CVS file that meets the criteria defined in the "Dataset" section below. The full .ipnyb file can be found in the repository. Then, the only places the code needs to be changed is the file name in the second to last line:
 final_balance = split_expenses('expenses_splitter_example_file.xlsx') where instead of 'expenses_splitter_example_file.xlsx' you can change it to the name of your file.
 
 **Dataset:**
