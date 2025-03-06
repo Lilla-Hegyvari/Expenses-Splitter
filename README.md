@@ -9,9 +9,13 @@ This is the documentation document for project "Expenses Splitter" for the AESB2
 You can use the code by inputting a CVS file that meets the criteria defined in the "Dataset" section below. The full .ipnyb file can be found in the repository. Then, the only places the code needs to be changed is the file name in the last few lines in step 12:
 
 file_name = "expenses_splitter_example_file.xlsx" -> change the file name between the "..." to your file.
+
 start_date = None -> change "None" to "YYYY-MM-DD" if you wish to filter the data.
+
 end_date = None -> change "None" to "YYYY-MM-DD" if you wish to filter the data.
+
 final_balance = split_expenses(file_name, start_date, end_date)
+
 print(final_balance)
 
 **Dataset:**
