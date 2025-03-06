@@ -39,7 +39,7 @@ Since Emma did not participate in the expense, her share is 0€. The rest of th
 3. Now, Emma's friend Mark joins them for dinner. Emma's share should be set to 2. Lily, Bob and Anna's shares should be set to 1.
  ![image](https://github.com/user-attachments/assets/bd96b529-d3a7-40a6-9423-47b758f1e34b)
 
-Emma pays for Mark's share. She will pay 2/5 * 20€ = 8€
+Emma pays for Mark's share. She will pay 2/5 * 20€ = 8€ The rest of the three roommates pay 1/5 * 20€ = 4€
 
 **Code writing:**
 
