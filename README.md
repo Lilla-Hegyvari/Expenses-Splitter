@@ -87,3 +87,6 @@ Python code, first few expenses only:
 
 These numbers for the first few expenses can be simply calculated and confirmed.
 
+**result of the tests of the functions: successful**
+![image](https://github.com/user-attachments/assets/ac1d378a-9405-4aa7-941b-25a320a8eac5)
+
