@@ -65,7 +65,7 @@ def split_expenses(expenses, start_date=None, end_date=None):
     return rounded_balances
 
 
-# Step 12 & 13: only run this block if script is run directly, not when imported
+# Step 12 & 13: only run this block if script is run directly, not when imported otherwise the test running gives an error
 if __name__ == "__main__":
     # Change the file name, start date, and end date as needed
     file_name = "expenses_splitter_example_file.xlsx"
