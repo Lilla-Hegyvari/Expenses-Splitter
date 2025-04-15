@@ -7,8 +7,6 @@ pd.set_option('display.width', 200) #(line below as well) used to display all co
 pd.set_option('display.max_columns',8) 
 print(dataset)
 
-#import necessary packages. Importing again so that if user does not wish to see expense file the code can still run
-import pandas as pd
 
 #Step 2: create date filtering function
 """
