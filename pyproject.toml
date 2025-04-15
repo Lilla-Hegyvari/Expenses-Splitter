@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Expenses Splitted"
+version = final
+description = "A package that is able to split a list of expense costs between a group of people"
+authors = [ 
+    {name = "Lilla Hegyvári", email = "hegyvari.lilla@gmail.com"},
+]
+dependencies = ["pandas==2.2.3"]
+
+
+
